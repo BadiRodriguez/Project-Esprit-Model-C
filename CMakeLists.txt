@@ -58,6 +58,8 @@ add_executable(project_esprit_model_C
         data_structures/MockUpYFastTrie.h
         data_structures/MockUpYFastTrie.cpp
         core/commands/Corrupted.h
+        core/text/TypingText.h
+        core/text/TypingText.cpp
 )
 
     target_link_libraries(project_esprit_model_C sfml-graphics sfml-window sfml-system)
